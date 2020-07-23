@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Call from '@/views/Call'
+import Call from '@/views/call/index'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/Call',
+      path: '/',
       name: 'Call',
       component: Call
     }

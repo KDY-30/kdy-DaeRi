@@ -68,17 +68,10 @@ export default {
     return {
       changLayer: false
     }
-  },
-  created () {
-    this.changLayer = document.body.clientWidth > 1585
-    window.addEventListener('resize', (event) => {
-      console.log(document.body.clientWidth)
-      this.changLayer = document.body.clientWidth > 1585
-    })
   }
 }
 </script>
 
 <style lang="scss">
-  @import '../assets/css/call'
+  @import './src/assets/scss/call/common.scss';
 </style>
